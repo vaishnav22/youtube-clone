@@ -1,0 +1,18 @@
+body{
+    font-family: monospace;
+}
+.main-section{
+    margin: 20px 30px 20px 30px;
+}
+
+i{
+    margin-bottom: 10px;
+}
+
+h1{
+    display: inline;
+}
+
+input{
+    font-family: 'Roboto', sans-serif;
+}
