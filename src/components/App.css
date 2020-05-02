@@ -16,3 +16,48 @@ h1{
 input{
     font-family: 'Roboto', sans-serif;
 }
+
+@media (max-width: 415px){
+    .search-bar.ui.segment{
+        margin: 10px auto;
+        align-content: center;
+        text-align: center;
+    }
+
+    h1{
+        font-size: 20px;
+        text-align: center;
+    
+    }
+
+    i.red.huge.youtube.icon{
+        display: none;
+    }
+
+    .eleven.wide.column{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .ui.grid{
+        display: flex;
+        
+    }
+
+    .ui.row{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .main-section{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .five.wide.column{
+        display: flex;
+        flex-direction: column;
+    }
+}
